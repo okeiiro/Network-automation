@@ -1,0 +1,46 @@
+{
+    "default_parameters": [
+        {
+            "device_type": "cisco_ios",
+            "port": 22
+        }
+    ],
+    
+    "lists": [
+        
+            {
+                "type": "routers",
+                "hosts": [
+                    "100.82.148.1",
+                    "100.82.148.2",
+                    "100.82.148.3"
+                ]
+            },
+        
+
+            {
+                "type": "switch_lan",
+                "hosts": [
+                    "100.82.148.4",
+                    "100.82.148.5"
+                ]
+            }
+        ],
+    
+    "commands": [
+        "sh run | include hostname",
+        "conf t",
+        "jksgdhj",
+        "interface g0/0",
+        "exit",
+        "exit",
+        "show version",
+        "config t",
+        "interface GigabitEthernet0/0",
+        "exit",
+        "line vty 0 4",
+        "exit",
+        "write memory"
+
+    ]
+}
