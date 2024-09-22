@@ -14,7 +14,7 @@ pip install netmiko
 ```
 
 ## send_commands.py
-Python script to automate router/switch commands with authentification handling.<br>
+Python script to automate router/switch commands (including configuration mode commands) with authentification handling for multiple device types.<br>
 You can add your commands in the config.json file inside commandes folder
 
 ```bash
