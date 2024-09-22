@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 # Load the JSON configuration
-json_file_open = 'configuration.json'
+json_file_open = 'config.json'
 with open(json_file_open, 'r') as file:
     data = json.load(file)
 
