@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 # Load the JSON configuration
-json_file_open = 'config.json'
+json_file_open = 'configuration.json'
 with open(json_file_open, 'r') as file:
     data = json.load(file)
 
@@ -71,7 +71,8 @@ with open('output.txt', 'w') as file:
                         file.write(f'Output: {response}\n\n')
                     except Exception as e:
                         print(f"Failed to execute command {cmd} on {hostname}: {e}")
-
+                
+                net_connect.send_command("write memory", expect_string=r"(#|\(config.*\)#)")
                 file.write(f'Disconnected from device {hostname}\n')
                 file.write('-------------------------------------------------------\n\n')
 
