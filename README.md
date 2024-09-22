@@ -1,4 +1,7 @@
-# Network-automation
+# Network automation project
+Python scripts to automate networking tasks
+
+## Pre-requisites
 Ensure you have the following installed:
 
 - Python 3.x
