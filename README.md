@@ -14,7 +14,7 @@ pip install netmiko
 ```
 
 ## send_commands.py
-Python script to automate router/switch commands with authentification handling.
+Python script to automate router/switch commands with authentification handling.<br>
 You can add your commands in the config.json file inside commandes folder
 
 ```bash
@@ -30,7 +30,7 @@ You can add your commands in the config.json file inside commandes folder
 ```
 
 ## vpn_key.py
-Python script to automatically update vpn keys accross different routers with authentification handling.
+Python script to automatically update vpn keys accross different routers with authentification handling.<br>
 You can add the new vpn key in the vpn_config.json file inside vpn folder
 
 ```bash
