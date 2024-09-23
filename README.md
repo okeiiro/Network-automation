@@ -1,5 +1,5 @@
 # Network automation project
-Python scripts to automate networking tasks
+Python scripts to automate networking tasks.
 
 ## Pre-requisites
 Ensure you have the following installed:
